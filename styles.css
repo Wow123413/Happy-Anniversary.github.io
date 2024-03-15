@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Terminus';
+    background-color: #000;
+    height: 100vh;
+}
+
+#bg{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin: auto;
+}
+.box{
+    width: 500px;
+    height: 250px;
+    background-color: indigo;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: pink;
+    font-size: 35px;
+    text-shadow: 0 0 10px rgba(225, 255, 255, .35);
+    z-index: 9999;
+}
+h2{
+    text-align: center;
+    color: pink;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(225, 255, 255, .35);
+    padding: 3vh;
+}
+h3{
+    text-align: center;
+    color: pink;
+    font-size: 15px;
+    text-shadow: 0 0 10px rgba(225, 255, 255, .35);
+}
+a{
+    text-decoration: none;
+    color: pink;
+    padding: 3vh;
+}
+a:hover{
+    color:  black;
+    font-size: 15;
+}
+.wow{
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+    
+}
+.tama{
+    align-items: center;
+    justify-content: center;
+    margin: 4vh;
+    
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Terminus';
+    background-color: #000;
+    height: 100vh;
+}
+
+#bg{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;    
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.box{
+    width: 457px;
+    height: 500px;
+    background-color: indigo;
+    padding: 20px;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    color: pink;
+    font-size: 19px;
+    text-shadow: 0 0 10px rgba(225, 255, 255, .35);
+    z-index: 9999;
+}
+img { 
+    width: 185px;
+    height: 225px;
+    top: 5%;
+    right: 10%;
+    position: absolute;
+}
+#raw{
+    width: 185px;
+    height: 225px;
+    bottom: 50%;
+    right: 10%;
+    position: absolute;
+    margin-top: 305px;
+}
+#qwe{
+    width: 185px;
+    height: 225px;
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+#yey{
+    width: 185px;
+    height: 225px;
+    bottom: 40%;
+    left: 125px;
+    position: absolute;
+    margin-top: 305px;
+}
